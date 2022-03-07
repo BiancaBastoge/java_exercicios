@@ -17,20 +17,14 @@ public class Lampada {
 		
 		else {
 			on = false;
-			System.out.println("~~~~~ Lâmpada Queimada!");
+			System.out.println("~~~~~ LÃ¢mpada Queimada!");
 		}
 		
 		
-		System.out.println("Lâmpada " + (on ? "ACESA" : "APAGADA"));
-		if(i == 1) {
-			System.out.println(i + " Clique");
-		}
-		else {
-			System.out.println(i + " Cliques");
-		}
-        System.out.println("");
+		System.out.println("LÃ¢mpada " + (on ? "ACESA" : "APAGADA"));
+		System.out.println((i == 1 ? i + " Clique" : i + " Cliques "));
+        	System.out.println("");
         
-        i++;
-        
+        	i++;
 	}
 }
